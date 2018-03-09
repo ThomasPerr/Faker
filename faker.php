@@ -22,6 +22,19 @@ echo $faker->text, "</br></br>";
 $faker1 = new Faker\Generator();
 $faker1->addProvider(new DTA\Faker\Provider\Pokemon($faker1));
 
+echo "<strong>Thomas:</strong></br>";
+for ($i=0; $i < 6; $i++) {
+    echo $faker1->Pokemon, "</br>";
+}
+echo "</br>";
+
+echo "<strong>Gregory:</strong></br>";
+for ($i=0; $i < 6; $i++) {
+    echo $faker1->Pokemon, "</br>";
+}
+echo "</br>";
+
+echo "<strong>Mathieu:</strong></br>";
 for ($i=0; $i < 6; $i++) {
     echo $faker1->Pokemon, "</br>";
 }
