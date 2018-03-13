@@ -25,7 +25,8 @@ $faker1->addProvider(new DTA\Faker\Provider\Pokemon($faker1));
 //une team
 echo "<strong>Thomas:</strong></br>";
 for ($i=0; $i < 6; $i++) {
-    echo $faker1->Pokemon, "</br>";
+    print_r ($faker1->Pokemon);
+    echo "</br>";
 }
 echo "</br>";
 
@@ -59,6 +60,13 @@ echo "</br>";
 
 //une team
 echo "<strong>Kevin:</strong></br>";
+for ($i=0; $i < 6; $i++) {
+    echo $faker1->Pokemon, "</br>";
+}
+echo "</br>";
+
+//une team
+echo "<strong>Adel:</strong></br>";
 for ($i=0; $i < 6; $i++) {
     echo $faker1->Pokemon, "</br>";
 }
